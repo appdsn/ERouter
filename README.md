@@ -17,11 +17,11 @@
 ```java
 allprojects {
   repositories {
-			  ...
-			  maven { url 'https://jitpack.io' }
-		}
-	}
- 
+      ...
+      maven { url 'https://jitpack.io' }
+  }
+}
+
 dependencies {
   compile 'com.github.appdsn:ERouter:1.0'
 }
