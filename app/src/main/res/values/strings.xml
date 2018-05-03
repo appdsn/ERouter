@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ERouter</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
