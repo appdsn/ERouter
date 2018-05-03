@@ -12,6 +12,21 @@
 
 <img src="https://github.com/wbz360/Erouter/raw/master/screenshot/0.jpg" height="460px" width="280px" />
 
+添加依赖
+=
+```java
+allprojects {
+  repositories {
+			  ...
+			  maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+dependencies {
+  compile 'com.github.appdsn:ERouter:1.0'
+}
+```
+
 使用方法
 =
 
