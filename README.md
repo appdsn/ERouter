@@ -10,7 +10,7 @@
  * 6：支持异步任务超时设置
  * 7：支持Fragment的startActivityForResult
 
-<img src="https://github.com/wbz360/Erouter/raw/master/screenshot/0.jpg" height="540px" width="910px" />
+<img src="https://github.com/wbz360/Erouter/raw/master/screenshot/0.jpg" height="460px" width="280px" />
 
 使用方法
 =
