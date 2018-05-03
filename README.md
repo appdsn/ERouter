@@ -50,6 +50,7 @@ ERouter.registerComponent(CustomComponent.class);//别忘记注册
 
  ```
 （5）获取自定义组件返回的数据
+-
 ```java
     ERouter.getInstance().build("CustomComponent").route(MainActivity.this, new IRouteCallback() {
             @Override
@@ -64,6 +65,7 @@ ERouter.registerComponent(CustomComponent.class);//别忘记注册
     });
 ```
 （6）自定义拦截器
+-
 >自定义拦截器，实现IRouteInterceptor接口，可以在拦截器中实现统一逻辑，如：登录判断，修改请求参数，出错降级处理等。
 ```java
  ERouter.addInterceptor(new IRouteInterceptor() {
